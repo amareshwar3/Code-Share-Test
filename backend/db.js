@@ -1,6 +1,9 @@
 import { connect } from "mongoose";
-const mongoURI =
-  "mongodb+srv://kuberjain144:RmXWbkHtlSArsSdQ@cluster0.hrs2sjp.mongodb.net/?retryWrites=true&w=majority"; //MongoDB connection string
+import dotenv from "dotenv";
+
+dotenv.config(); // Load variables from .env
+
+const mongoURI = process.env.MONGO_URI;
 
 const connectToMongo = async () => {
   //function to connect to mongodb
