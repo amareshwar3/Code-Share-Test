@@ -1,4 +1,4 @@
-# Code-Share-Test Live
+# Code-Share-Test
 
 An interactive **online coding platform** that lets users **write, execute, and share HTML, CSS, and JavaScript code** in real-time with **instant live preview**, custom test validation, and **multi-user collaboration**.
 
@@ -43,7 +43,7 @@ An interactive **online coding platform** that lets users **write, execute, and 
 | **HTML/CSS Parsing** | Cheerio, JSDOM |
 | **Real-time Communication** | Socket.IO |
 | **Auth & Security** | Express-Session, Bcrypt |
-| **Utilities** | UUID v4, Nodemailer |
+| **Utilities** | UUID v4 |
 | **Version Control & Deployment** | Git, GitHub, Vercel / Render |
 
 ---
